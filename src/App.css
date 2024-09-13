@@ -1,25 +1,54 @@
+/* App.css */
 
-.dropzone {
-  border: 2px dashed #cccccc; /* เปลี่ยนจาก dotted เป็น dashed */
-  background-color: #f7f9fc; /* เปลี่ยนสีพื้นหลังให้สว่างขึ้น */
-  height: 100px;
-  width: 700px;
-  margin: 16px auto; /* ใช้ auto เพื่อให้กลางหน้า */
-  border-radius: 8px; /* เพิ่มขอบมน */
-  display: flex; /* ใช้ flexbox เพื่อจัดตำแหน่งข้อความ */
-  align-items: center; /* จัดตำแหน่งในแนวตั้ง */
-  justify-content: center; /* จัดตำแหน่งในแนวนอน */
-  cursor: pointer; /* เปลี่ยนเคอร์เซอร์เมื่อชี้ที่ dropzone */
-  text-align: center; /* จัดตำแหน่งข้อความให้อยู่กลาง */
-  font-size: 16px; /* ขนาดฟอนต์ */
-  color: #333; /* สีข้อความ */
+/* Container สำหรับ App ให้จัดกลางหน้าจอ */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* ใช้ความสูงของหน้าจอ */
+  background-color: #f0f0f0; /* สีพื้นหลังอ่อน */
 }
 
-.selected-image{
+.dropzone {
+  border: 2px dashed #cccccc;
+  background-color: #ffffff;
+  height: 150px;
+  width: 100%;
+  max-width: 700px;
+  margin: 16px 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.selected-image {
   height: 100px;
   width: 100px;
   object-fit: cover;
-  background: antiquewhite;
-  margin: 16px;
+  background: #f7f7f7;
+  border-radius: 8px;
+  margin: 8px;
+}
 
+/* ปรับสไตล์ของปุ่ม */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
