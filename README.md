@@ -1,17 +1,17 @@
-# Use Dropzone Upload Images On Cloudinary
+## 💧🌚 Use Dropzone Upload Images On Cloudinary 
 
 
-This project involves a React frontend and an Express backend for image uploading with Cloudinary integration. The frontend allows users to drag and drop images for upload, and the backend handles uploading images to Cloudinary and saving their metadata to MongoDB.
+⚡️This project involves a React frontend and an Express backend for image uploading with Cloudinary integration. The frontend allows users to drag and drop images for upload, and the backend handles uploading images to Cloudinary and saving their metadata to MongoDB.
 
 
-# Tech Stack
+## 🖥️ Tech Stack 💻
 
 	•	React: For building the user interface.
 	•	CSS: For styling and responsive design.
 	•	react-dropzone: For handling file uploads.
 	•	Axios: For making HTTP requests to the backend.
 
-## Setup Project
+## ⚙️ Setup Project ⚙🔨
 **Step 1 Creates Project **
    
 
@@ -26,7 +26,7 @@ This project involves a React frontend and an Express backend for image uploadin
     npm i axios
 
 
-## Usage
+## 🎉🎉🎉 Usage
 
  1. Uploading Images
     	   •	Navigate to the frontend URL.
