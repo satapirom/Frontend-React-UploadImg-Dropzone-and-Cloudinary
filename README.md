@@ -6,10 +6,10 @@
 
 ## 🖥️ Tech Stack 💻
 
-• React: For building the user interface.
-• CSS: For styling and responsive design.
-• react-dropzone: For handling file uploads.
-• Axios: For making HTTP requests to the backend.
+- React: For building the user interface.
+- CSS: For styling and responsive design.
+- react-dropzone: For handling file uploads.
+- Axios: For making HTTP requests to the backend.
 
 ## ⚙️ Setup Project ⚙🔨
 **Step 1 Creates Project **
