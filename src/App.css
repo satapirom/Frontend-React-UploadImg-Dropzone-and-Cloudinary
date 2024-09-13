@@ -1,0 +1,25 @@
+
+.dropzone {
+  border: 2px dashed #cccccc; /* เปลี่ยนจาก dotted เป็น dashed */
+  background-color: #f7f9fc; /* เปลี่ยนสีพื้นหลังให้สว่างขึ้น */
+  height: 100px;
+  width: 700px;
+  margin: 16px auto; /* ใช้ auto เพื่อให้กลางหน้า */
+  border-radius: 8px; /* เพิ่มขอบมน */
+  display: flex; /* ใช้ flexbox เพื่อจัดตำแหน่งข้อความ */
+  align-items: center; /* จัดตำแหน่งในแนวตั้ง */
+  justify-content: center; /* จัดตำแหน่งในแนวนอน */
+  cursor: pointer; /* เปลี่ยนเคอร์เซอร์เมื่อชี้ที่ dropzone */
+  text-align: center; /* จัดตำแหน่งข้อความให้อยู่กลาง */
+  font-size: 16px; /* ขนาดฟอนต์ */
+  color: #333; /* สีข้อความ */
+}
+
+.selected-image{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  background: antiquewhite;
+  margin: 16px;
+
+}
